@@ -2,7 +2,7 @@ package main.java.game.entities;
 
 public class Alien {
     public float x, y;
-    private float direction = 1.0f;
+    //private float direction = 1.0f;
     private float speed = 0.5f;
     private float amplitude = 0.5f;
     private float originalX;

@@ -1,7 +1,11 @@
+package main.java.game.renderer;
+
 import com.jogamp.opengl.*;
 import com.jogamp.opengl.util.gl2.GLUT;
 import java.util.ArrayList;
 import java.util.Iterator;
+import main.java.game.entities.Alien;
+import main.java.game.entities.Projectile;
 
 public class SpaceInvadersRenderer implements GLEventListener {
     private float playerX = 0.0f;

@@ -1,8 +1,13 @@
+package main.java.game;
+
 import com.jogamp.opengl.*;
 import com.jogamp.opengl.awt.GLCanvas;
 import com.jogamp.opengl.util.FPSAnimator;
 import javax.swing.*;
 import java.awt.event.*;
+
+import main.java.game.renderer.SpaceInvadersRenderer;
+import main.java.game.controllers.KeyboardController;
 
 public class Main {
     public static void main(String[] args) {
