@@ -1,12 +1,23 @@
-# space-invaders-3D-opengl-2
+# Space Invaders 3D
 
-## Build the Project
-Navigate to the root directory of the project and run:
+## Prérequis
+- Java JDK 8 ou supérieur
+- JOGL (Java OpenGL)
+- Bibliothèques natives JOGL pour votre système d'exploitation
 
-```mvn clean compile
+## Installation
+1. Assurez-vous que JOGL est installé sur votre système
+2. Placez les fichiers .jar de JOGL dans le dossier lib/jogamp-all-platforms/jar/
+3. Placez les bibliothèques natives dans lib/jogamp-all-platforms/native/[votre-os]/
+
+## Compilation
+```bash
+make clean
+make all
 ```
-## Run the Application
-Navigate to the root directory of the project and run:
 
-```mvn exec:java
+## Exécution
+```bash
+make run
 ```
+
